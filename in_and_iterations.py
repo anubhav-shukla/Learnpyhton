@@ -21,8 +21,8 @@ user_info={
  
 #  but if we want to ptrint value than what '
 
-for i in user_info.values():
-    print(i)
+# for i in user_info.values():
+#     print(i)
     # it represent the value of the dictionary
  
 
@@ -61,8 +61,8 @@ for i in  user_info:
 
 
 # check if value exist is dictionary
-if 24 in user_info:
-        print('present')
-else:
-         print('Not present')
+# if 24 in user_info:
+#         print('present')
+# else:
+#          print('Not present')
  
