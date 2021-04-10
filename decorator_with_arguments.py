@@ -8,11 +8,11 @@ def only_data_type(data_type):
             print("Invalid argument")
         return wrapper
     return decorator
-@only_data_type
+@only_data_type(str)
 def string_join(*args):
     string=''
     for i in args:
         string +=i
     return string
 
-string_join('Anubhav','Shukla')                    
+print(string_join('Anubhav','Shukla'))                    
